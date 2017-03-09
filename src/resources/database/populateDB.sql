@@ -1,0 +1,9 @@
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('1', 'Larry K. Joyner',     '19', b'1', '2016-09-22 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('2', 'Tia K. Meza', 		    '33', b'0', '2012-03-08 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('3', 'Glen F. Hare', 		    '51', b'0', '2012-03-23 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('4', 'Ron A. Demaria', 		  '62', b'0', '2012-10-17 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('5', 'Earl D. Clemons', 	  '68', b'0', '2013-07-26 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('6', 'Lawrence R. Farris', 	'29', b'1', '2014-06-17 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('7', 'Alice B. Ramsey', 	  '32', b'0', '2015-08-20 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('8', 'Brooke J. Murphy', 	  '20', b'0', '2017-02-28 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('9', 'Karen H. Taylor', 	  '28', b'1', '2014-09-24 12:00:00');
