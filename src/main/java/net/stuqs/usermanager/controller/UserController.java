@@ -53,7 +53,7 @@ public class UserController {
         return "edit";
     }
 
-    @RequestMapping(value = "edit/id", method = RequestMethod.POST)
+    @RequestMapping(value = "edit/{id}", method = RequestMethod.POST)
     public String editUserPost(@ModelAttribute("user") User user) {
         this.userService.updateUser(user);
 
