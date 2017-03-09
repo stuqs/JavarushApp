@@ -1,4 +1,5 @@
 <jsp:useBean id="listUsers" scope="request" type="java.util.List<net.stuqs.usermanager.model.User>"/>
+<jsp:useBean id="pages" scope="request" type="java.lang.Integer"/>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
@@ -33,7 +34,7 @@
     <title>Users Page</title>
 </head>
 <body>
-<a href="/index.jsp" style="font-size: 17px">Back to main menu</a>
+<a href="../../index.jsp" style="font-size: 17px">Back to main menu</a>
 <br/>
 <br/>
 <h1>User List</h1>
@@ -86,8 +87,6 @@
 </form:form>
 <%-----------------------------------------------------------------------------------%>
 
-
-
 <%----------------------Search user---------------------%>
 
 <c:url var="SearchUser" value="/search"/>
@@ -137,6 +136,12 @@
             </tr>
         </c:forEach>
     </table>
+<br><br>
+    <div class="adduser">
+        <c:forEach var="i" begin="1" end="${pages}">
+            <a style="font-size: 27px" href="/users/${i}">${i}&emsp;</a>
+        </c:forEach>
+    </div>
 </c:if>
 </body>
 </html>

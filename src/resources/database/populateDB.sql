@@ -7,3 +7,17 @@ INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('6', 'Lawren
 INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('7', 'Alice B. Ramsey', 	  '32', b'0', '2015-08-20 12:00:00');
 INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('8', 'Brooke J. Murphy', 	  '20', b'0', '2017-02-28 12:00:00');
 INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('9', 'Karen H. Taylor', 	  '28', b'1', '2014-09-24 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('10', 'Rosendo E. Wilson',  '22', b'1', '2016-01-22 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('11', 'Jennifer C. Burnett','42', b'1', '2016-05-22 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('12', 'Jack T. Lear', 		  '35', b'0', '2012-12-08 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('13', 'Trey M. Sarabia', 		'71', b'0', '2012-03-23 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('14', 'Ricky A. Sibley', 		'26', b'0', '2012-10-17 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('15', 'Mark J. Weller', 	  '44', b'0', '2013-07-26 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('16', 'Tommy E. Baze',      '33', b'1', '2014-08-17 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('17', 'Kristi D. Stone', 	  '27', b'0', '2015-08-20 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('18', 'Lorenzo J. Hoehn', 	'29', b'0', '2017-01-28 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('19', 'David D. Sanchez', 	'30', b'1', '2014-11-24 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('20', 'Pauline W. Stauffer','62', b'1', '2016-09-22 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('21', 'Jacqueline S. Levy', '50', b'0', '2013-09-22 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('22', 'Corie M. Anderson', 	'19', b'0', '2015-07-08 12:00:00');
+INSERT INTO test.user (id, name, age, isAdmin, createdDate) VALUES ('23', 'Kristina J. Wagner', '21', b'0', '2012-03-23 12:00:00');

@@ -1,3 +1,4 @@
+<jsp:useBean id="foundUsers" scope="request" type="java.util.List<net.stuqs.usermanager.model.User>"/>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
@@ -12,7 +13,7 @@
     <title>Search User</title>
 </head>
 <body>
-<a href="/index.jsp" style="font-size: 17px">Back to main menu</a>
+<a href="../../index.jsp" style="font-size: 17px">Back to main menu</a>
 <br/>
 <br/>
 <h1>User List</h1>
@@ -40,8 +41,6 @@
     </table>
 </form:form>
 <%-----------------------------------------------------------------------------------%>
-
-
 <br>
 <c:if test="${!empty foundUsers}">
     <table class="simple-little-table" cellspacing='0'>

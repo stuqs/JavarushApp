@@ -11,6 +11,6 @@
     <title>Main Page</title>
 </head>
 <body>
-<h1><a href="<c:url value="/users"/>" target="_blank" style="font-size: 30px">List of Users</a></h1>
+<h1><a href="<c:url value="/users/1"/>" target="_blank" style="font-size: 30px">List of Users</a></h1>
 </body>
 </html>

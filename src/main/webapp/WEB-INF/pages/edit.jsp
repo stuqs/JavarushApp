@@ -1,3 +1,4 @@
+<jsp:useBean id="user" scope="request" type="net.stuqs.usermanager.model.User"/>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
@@ -9,10 +10,10 @@
     <spring:url value="/resources/img/favicon.ico" var="favicon" />
     <link href="${mainCss}" rel="stylesheet" />
     <link href="${favicon}" rel="icon" type="image/ico" />
-    <title>User Data</title>
+    <title>Edit User Data</title>
 </head>
 <body>
-<a href="/index.jsp" style="font-size: 17px">Back to main menu</a>
+<a href="../../index.jsp" style="font-size: 17px">Back to main menu</a>
 <br/>
 <br/>
 <h1>User Details</h1>
